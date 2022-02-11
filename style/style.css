@@ -13,3 +13,36 @@
 
   font-family: "Bai Jamjuree", sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+main,
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 80%;
+  max-width: 1400px;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--dark-grayish-blue);
+}
+
+p {
+  color: var(--grayish-blue);
+  font-size: 0.98rem;
+  line-height: 1.6em;
+}
