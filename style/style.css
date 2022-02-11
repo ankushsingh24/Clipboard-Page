@@ -1,0 +1,15 @@
+:root {
+  --strong-cyan: hsl(171, 66%, 44%);
+  --light-blue: hsl(233, 100%, 69%);
+  --strong-cyan-shadow: #1aa18b;
+  --light-blue-shadow: #5063e1;
+  --strong-cyan-active: #5ccdbb;
+  --light-blue-active: #8897fe;
+  --strong-cyan-shadow-active: #54b8a6;
+  --light-blue-shadow-active: #7d89e4;
+  --dark-grayish-blue: hsl(210, 10%, 33%);
+  --grayish-blue: hsl(201, 11%, 66%);
+  --light-gray: #f4f6f9;
+
+  font-family: "Bai Jamjuree", sans-serif;
+}
