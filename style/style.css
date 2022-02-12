@@ -50,7 +50,7 @@ p {
 /* -------------- header ---------------- */
 
 header {
-  background-image: url(./src/img/bg-header-mobile.png);
+  /* background-image: url(../src/img/bg-header-mobile.png); */
   background-attachment: fixed;
   background-size: contain;
   background-repeat: no-repeat;
@@ -67,4 +67,68 @@ header .logo-img {
 
 header h1 {
   font-size: 1.9rem;
+}
+
+/* -------------- download-links ---------------- */
+
+.download-links {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+.download-links a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-weight: bold;
+  padding: 0.8em 2em;
+  margin: 1.3em 0;
+  border-radius: 50px;
+  width: auto;
+}
+
+.ios-link {
+  background-color: var(--strong-cyan);
+  box-shadow: 0 0.2em var(--strong-cyan-shadow);
+}
+
+.mac-link {
+  background-color: var(--light-blue);
+  box-shadow: 0 0.2em var(--light-blue-shadow);
+}
+
+.download-links a:hover a:focus {
+  transform: translateY(-3px);
+  transition: ease all 0.3s;
+}
+
+.ios-link:hover,
+a:focus {
+  background-color: var(--strong-cyan-active);
+  box-shadow: 0 0.2em var(--strong-cyan-shadow-active);
+}
+
+.mac-link:hover,
+a:focus {
+  background-color: var(--light-blue-active);
+  box-shadow: 0 0.2em var(--light-blue-shadow-active);
+}
+
+@media screen and (min-width: 700px) {
+  header {
+    background-image: url(../src/img/bg-header-desktop.png);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  :root {
+    font-size: 18px;
+  }
+}
+
+p {
+  width: 60%;
+  margin: auto;
 }
