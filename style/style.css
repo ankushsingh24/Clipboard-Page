@@ -46,3 +46,25 @@ p {
   font-size: 0.98rem;
   line-height: 1.6em;
 }
+
+/* -------------- header ---------------- */
+
+header {
+  background-image: url(./src/img/bg-header-mobile.png);
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6em 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+header .logo-img {
+  width: 7rem;
+  margin-bottom: 2em;
+}
+
+header h1 {
+  font-size: 1.9rem;
+}
